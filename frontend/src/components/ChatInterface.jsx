@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Send, User, MessageSquare, Plus, Bot, Link, Database } from 'lucide-react';
+import { Send, User, MessageSquare, Plus, Bot, Link, Database, Menu, X } from 'lucide-react';
 import IngestForm from './IngestForm';
 
 const ChatInterface = () => {
@@ -7,6 +7,7 @@ const ChatInterface = () => {
     const [messages, setMessages] = useState([]);
     const [input, setInput] = useState('');
     const [isLoading, setIsLoading] = useState(false);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const messagesEndRef = useRef(null);
 
     const scrollToBottom = () => {
@@ -66,26 +67,55 @@ const ChatInterface = () => {
         setMessages([]);
     };
 
+    const toggleSidebar = () => {
+        setIsSidebarOpen(!isSidebarOpen);
+    };
+
+    const handleNavClick = (newView) => {
+        setView(newView);
+        if (window.innerWidth <= 768) {
+            setIsSidebarOpen(false);
+        }
+    };
+
+    const handleNewChat = () => {
+        clearChat();
+        setView('chat');
+        if (window.innerWidth <= 768) {
+            setIsSidebarOpen(false);
+        }
+    };
+
     // Extract unique queries from messages for sidebar history
     const historyItems = messages.filter(m => m.sender === 'user').slice(-10);
 
     return (
         <div className="app-container">
-            <div className="sidebar">
-                <div className="brand" style={{ cursor: 'pointer' }} onClick={() => setView('chat')}>
-                    <div className="brand-icon">
-                        <Bot size={20} color="#000" />
+            {/* Sidebar Overlay for Mobile */}
+            {isSidebarOpen && (
+                <div className="sidebar-overlay" onClick={() => setIsSidebarOpen(false)}></div>
+            )}
+
+            <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
+                <div className="sidebar-header">
+                    <div className="brand" style={{ cursor: 'pointer', marginBottom: 0 }} onClick={() => handleNavClick('chat')}>
+                        <div className="brand-icon">
+                            <Bot size={20} color="#000" />
+                        </div>
+                        TalkingBee
                     </div>
-                    TalkingBee
+                    <button className="close-sidebar" onClick={() => setIsSidebarOpen(false)}>
+                        <X size={20} />
+                    </button>
                 </div>
                 
-                <button className="new-chat-btn" onClick={() => { clearChat(); setView('chat'); }}>
+                <button className="new-chat-btn" onClick={handleNewChat}>
                     <Plus size={18} /> New Chat
                 </button>
 
                 <div 
                     className={`nav-item ${view === 'knowledge' ? 'active' : ''}`}
-                    onClick={() => setView('knowledge')}
+                    onClick={() => handleNavClick('knowledge')}
                 >
                     <Database size={18} /> Knowledge Base
                 </div>
@@ -104,6 +134,9 @@ const ChatInterface = () => {
 
             <div className="chat-main">
                 <div className="chat-header">
+                    <button className="menu-btn" onClick={toggleSidebar}>
+                        <Menu size={24} />
+                    </button>
                     <div className="status-badge">
                         <div className="status-dot"></div>
                         Online

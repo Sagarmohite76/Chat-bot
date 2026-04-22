@@ -438,3 +438,134 @@ textarea::placeholder {
   0%, 80%, 100% { transform: scale(0); }
   40% { transform: scale(1); }
 }
+
+/* Mobile Controls */
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  padding: 8px;
+  margin-right: auto;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.close-sidebar {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 4px;
+}
+
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 99;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .close-sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    bottom: 0;
+    width: 280px;
+    z-index: 100;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.5);
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .sidebar-overlay {
+    display: block;
+  }
+
+  .chat-header {
+    padding: 0 1rem;
+    justify-content: space-between;
+  }
+
+  .welcome-screen h1 {
+    font-size: 1.75rem;
+  }
+
+  .welcome-screen p {
+    font-size: 0.95rem;
+  }
+
+  .messages-container {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .message-wrapper {
+    max-width: 95%;
+  }
+
+  .bubble {
+    padding: 0.875rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .input-area {
+    padding: 1rem;
+  }
+
+  .input-box {
+    padding: 0.5rem;
+    border-radius: 12px;
+  }
+
+  textarea {
+    font-size: 0.95rem;
+  }
+
+  .send-btn {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-screen h1 {
+    font-size: 1.5rem;
+  }
+
+  .welcome-icon-wrapper {
+    width: 60px;
+    height: 60px;
+  }
+
+  .brand {
+    font-size: 1.25rem;
+  }
+}

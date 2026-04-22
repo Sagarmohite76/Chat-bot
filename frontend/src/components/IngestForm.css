@@ -147,3 +147,39 @@
     from { opacity: 0; transform: translateY(-5px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+@media (max-width: 768px) {
+    .ingest-card {
+        padding: 1.5rem;
+        margin: 1rem;
+        max-width: none;
+    }
+
+    .file-upload-box {
+        padding: 2rem 1rem;
+    }
+
+    .ingest-header h2 {
+        font-size: 1.25rem;
+    }
+
+    .ingest-header p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .ingest-card {
+        padding: 1rem;
+        margin: 0.5rem;
+        border-radius: 12px;
+    }
+
+    .file-upload-box {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .file-placeholder {
+        font-size: 0.85rem;
+    }
+}
