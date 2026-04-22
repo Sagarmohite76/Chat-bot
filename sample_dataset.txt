@@ -1,0 +1,9 @@
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.
+
+Qdrant is a high-performance vector search engine. it provides a production-ready service with a convenient API to store, search, and manage vectors along with additional payload. Qdrant is tailored for filtering support, which makes it useful for all sorts of neural-network-based matching, faceted search, and other applications.
+
+Retrieval-Augmented Generation (RAG) is a technique for enhancing the output of a large language model by referencing an authoritative knowledge base outside of its training data sources before generating a response. This helps ensure that the model provides current and accurate information.
+
+A vector database stores data as high-dimensional vectors, which are mathematical representations of features or attributes. Each vector has a certain number of dimensions, which can range from tens to thousands, depending on the complexity and granularity of the data being represented.
+
+The integration of vector databases like Qdrant into RAG systems allows for efficient retrieval of contextually relevant information, enabling AI models to provide more precise and context-aware answers.

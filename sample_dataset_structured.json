@@ -1,0 +1,2989 @@
+[
+  {
+    "id": 1,
+    "title": "Artificial Intelligence",
+    "content": "Artificial Intelligence (AI) enables machines to simulate human intelligence such as learning and reasoning.",
+    "tags": [
+      "ai",
+      "basics"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning",
+    "content": "Machine Learning is a subset of AI that allows systems to learn patterns from data without explicit programming.",
+    "tags": [
+      "ml",
+      "ai"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Deep Learning",
+    "content": "Deep Learning uses neural networks with multiple layers to model complex patterns in data.",
+    "tags": [
+      "dl",
+      "ml"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Natural Language Processing",
+    "content": "NLP enables machines to understand and generate human language.",
+    "tags": [
+      "nlp",
+      "ai"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Vector Database",
+    "content": "A vector database stores embeddings and enables similarity search using distance metrics.",
+    "tags": [
+      "vector-db"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Qdrant Overview",
+    "content": "Qdrant is a vector database optimized for fast similarity search and filtering.",
+    "tags": [
+      "qdrant"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Embeddings",
+    "content": "Embeddings are numerical representations of text, images, or data in vector space.",
+    "tags": [
+      "embedding"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Cosine Similarity",
+    "content": "Cosine similarity measures the angle between two vectors to determine similarity.",
+    "tags": [
+      "math",
+      "vector"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Euclidean Distance",
+    "content": "Euclidean distance measures the straight-line distance between two vectors.",
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "RAG Concept",
+    "content": "RAG combines retrieval and generation to improve AI responses with external knowledge.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "LLM",
+    "content": "Large Language Models are trained on massive datasets to generate human-like text.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Tokenization",
+    "content": "Tokenization splits text into smaller units for processing by models.",
+    "tags": [
+      "nlp"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Prompt Engineering",
+    "content": "Prompt engineering is designing inputs to get better outputs from LLMs.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Fine-tuning",
+    "content": "Fine-tuning adapts a pretrained model to a specific task using additional data.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Zero-shot Learning",
+    "content": "Zero-shot learning allows models to perform tasks without prior examples.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Few-shot Learning",
+    "content": "Few-shot learning uses a small number of examples to guide the model.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Semantic Search",
+    "content": "Semantic search finds results based on meaning rather than keywords.",
+    "tags": [
+      "search"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Indexing",
+    "content": "Indexing organizes data for faster retrieval in databases.",
+    "tags": [
+      "db"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Metadata Filtering",
+    "content": "Metadata filtering allows narrowing search results based on attributes.",
+    "tags": [
+      "qdrant"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Chunking",
+    "content": "Chunking splits documents into smaller parts for better embedding and retrieval.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Transformer Model",
+    "content": "Transformers use attention mechanisms to process sequential data efficiently.",
+    "tags": [
+      "dl"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Attention Mechanism",
+    "content": "Attention helps models focus on important parts of input data.",
+    "tags": [
+      "dl"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "BERT",
+    "content": "BERT is a transformer model designed for understanding text context.",
+    "tags": [
+      "nlp"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "GPT",
+    "content": "GPT models generate text using autoregressive language modeling.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Overfitting",
+    "content": "Overfitting occurs when a model learns noise instead of patterns.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Underfitting",
+    "content": "Underfitting occurs when a model fails to capture underlying patterns.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Training Data",
+    "content": "Training data is used to teach machine learning models.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Validation Data",
+    "content": "Validation data evaluates model performance during training.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Test Data",
+    "content": "Test data assesses final model performance.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Inference",
+    "content": "Inference is the process of making predictions using a trained model.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "API",
+    "content": "An API allows communication between software systems.",
+    "tags": [
+      "dev"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "REST API",
+    "content": "REST APIs use HTTP methods for communication.",
+    "tags": [
+      "dev"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Latency",
+    "content": "Latency is the delay in response time for a system.",
+    "tags": [
+      "perf"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Throughput",
+    "content": "Throughput measures how many requests a system can handle.",
+    "tags": [
+      "perf"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Scalability",
+    "content": "Scalability is the ability of a system to handle growth.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Distributed Systems",
+    "content": "Distributed systems consist of multiple interconnected components.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Cloud Computing",
+    "content": "Cloud computing provides on-demand computing resources.",
+    "tags": [
+      "cloud"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Docker",
+    "content": "Docker is used to containerize applications.",
+    "tags": [
+      "devops"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Kubernetes",
+    "content": "Kubernetes manages containerized applications at scale.",
+    "tags": [
+      "devops"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "CI/CD",
+    "content": "CI/CD automates software testing and deployment.",
+    "tags": [
+      "devops"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Search Ranking",
+    "content": "Search ranking determines the order of search results.",
+    "tags": [
+      "search"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Hybrid Search",
+    "content": "Hybrid search combines keyword and vector search.",
+    "tags": [
+      "search"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Re-ranking",
+    "content": "Re-ranking improves search results using additional models.",
+    "tags": [
+      "search"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Similarity Score",
+    "content": "Similarity score measures closeness between vectors.",
+    "tags": [
+      "vector"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Dimensionality",
+    "content": "Dimensionality refers to the number of features in a vector.",
+    "tags": [
+      "vector"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Normalization",
+    "content": "Normalization scales data to a common range.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Batch Processing",
+    "content": "Batch processing handles large datasets in chunks.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Streaming",
+    "content": "Streaming processes data in real-time.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Knowledge Base",
+    "content": "A knowledge base stores structured and unstructured information.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Context Window",
+    "content": "Context window defines how much text a model can process at once.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Embedding Model",
+    "content": "An embedding model converts text or data into numerical vectors for similarity search.",
+    "tags": [
+      "embedding"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Vector Index",
+    "content": "A vector index organizes embeddings for efficient nearest neighbor search.",
+    "tags": [
+      "vector-db"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "HNSW Algorithm",
+    "content": "HNSW is a graph-based algorithm used for fast approximate nearest neighbor search.",
+    "tags": [
+      "vector",
+      "search"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Approximate Nearest Neighbor",
+    "content": "ANN search finds close matches quickly without checking all data points.",
+    "tags": [
+      "search"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Distance Metric",
+    "content": "Distance metrics determine how similarity between vectors is calculated.",
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Cosine Distance",
+    "content": "Cosine distance measures dissimilarity based on angle between vectors.",
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Dot Product",
+    "content": "Dot product measures similarity by multiplying corresponding vector elements.",
+    "tags": [
+      "math"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Embedding Dimension",
+    "content": "Embedding dimension defines the size of the vector representation.",
+    "tags": [
+      "vector"
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Sparse Vector",
+    "content": "Sparse vectors contain mostly zero values and are memory efficient.",
+    "tags": [
+      "vector"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Dense Vector",
+    "content": "Dense vectors contain mostly non-zero values and represent embeddings.",
+    "tags": [
+      "vector"
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Text Embedding",
+    "content": "Text embeddings represent words or sentences numerically for ML models.",
+    "tags": [
+      "embedding"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Image Embedding",
+    "content": "Image embeddings convert images into vector representations.",
+    "tags": [
+      "embedding"
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Multimodal AI",
+    "content": "Multimodal AI processes multiple data types such as text and images.",
+    "tags": [
+      "ai"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Retrieval Pipeline",
+    "content": "A retrieval pipeline fetches relevant data before generating responses.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Document Loader",
+    "content": "A document loader extracts data from files like PDFs or websites.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Text Splitter",
+    "content": "A text splitter divides documents into smaller chunks for processing.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Chunk Overlap",
+    "content": "Chunk overlap ensures continuity between split text segments.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Vector Store",
+    "content": "A vector store manages embeddings and supports similarity queries.",
+    "tags": [
+      "vector-db"
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Retriever",
+    "content": "A retriever fetches relevant documents based on query embeddings.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Generator Model",
+    "content": "A generator model produces final responses using retrieved context.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 71,
+    "title": "OpenAI API",
+    "content": "OpenAI API provides access to models for text generation and embeddings.",
+    "tags": [
+      "api"
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Temperature",
+    "content": "Temperature controls randomness in model outputs.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Top-k Sampling",
+    "content": "Top-k sampling selects from top probable tokens during generation.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Top-p Sampling",
+    "content": "Top-p sampling selects tokens based on cumulative probability.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Token Limit",
+    "content": "Token limit defines maximum tokens a model can process.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Hallucination",
+    "content": "Hallucination occurs when AI generates incorrect or fabricated information.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Grounding",
+    "content": "Grounding ensures AI responses are based on real data sources.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Context Injection",
+    "content": "Context injection adds retrieved data into prompts for better responses.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Vector Search Query",
+    "content": "A vector search query compares embeddings to find similar results.",
+    "tags": [
+      "search"
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Payload",
+    "content": "Payload stores additional metadata alongside vectors in databases.",
+    "tags": [
+      "qdrant"
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Filtering Conditions",
+    "content": "Filtering conditions restrict search results based on metadata.",
+    "tags": [
+      "qdrant"
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Hybrid Retrieval",
+    "content": "Hybrid retrieval combines vector search with keyword filtering.",
+    "tags": [
+      "search"
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Relevance Score",
+    "content": "Relevance score indicates how well a result matches a query.",
+    "tags": [
+      "search"
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Data Pipeline",
+    "content": "A data pipeline processes and moves data through stages.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 85,
+    "title": "ETL",
+    "content": "ETL stands for Extract, Transform, Load in data processing.",
+    "tags": [
+      "data"
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Feature Engineering",
+    "content": "Feature engineering creates useful inputs for machine learning models.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Model Deployment",
+    "content": "Model deployment makes trained models available for use.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Monitoring",
+    "content": "Monitoring tracks system and model performance.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Logging",
+    "content": "Logging records system activity for debugging and analysis.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Caching",
+    "content": "Caching stores frequently accessed data for faster retrieval.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Rate Limiting",
+    "content": "Rate limiting restricts the number of requests to a system.",
+    "tags": [
+      "api"
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Load Balancing",
+    "content": "Load balancing distributes traffic across multiple servers.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Fault Tolerance",
+    "content": "Fault tolerance ensures systems continue operating despite failures.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Horizontal Scaling",
+    "content": "Horizontal scaling adds more machines to handle load.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Vertical Scaling",
+    "content": "Vertical scaling increases resources of a single machine.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Query Embedding",
+    "content": "Query embedding converts user queries into vectors for search.",
+    "tags": [
+      "embedding"
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Document Embedding",
+    "content": "Document embedding converts documents into vectors.",
+    "tags": [
+      "embedding"
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Similarity Threshold",
+    "content": "Similarity threshold filters results based on score cutoff.",
+    "tags": [
+      "search"
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Vector Clustering",
+    "content": "Vector clustering groups similar embeddings together.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Dimensionality Reduction",
+    "content": "Dimensionality reduction reduces vector size while preserving meaning.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 101,
+    "title": "PCA",
+    "content": "Principal Component Analysis reduces dimensions of data.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "t-SNE",
+    "content": "t-SNE visualizes high-dimensional data in lower dimensions.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "UMAP",
+    "content": "UMAP is used for dimensionality reduction and visualization.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Data Augmentation",
+    "content": "Data augmentation increases dataset size with variations.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Regularization",
+    "content": "Regularization prevents overfitting in models.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Dropout",
+    "content": "Dropout randomly disables neurons during training to prevent overfitting.",
+    "tags": [
+      "dl"
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Activation Function",
+    "content": "Activation functions introduce non-linearity into neural networks.",
+    "tags": [
+      "dl"
+    ]
+  },
+  {
+    "id": 108,
+    "title": "ReLU",
+    "content": "ReLU is a common activation function that outputs zero for negative values.",
+    "tags": [
+      "dl"
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Sigmoid",
+    "content": "Sigmoid maps input values to a range between 0 and 1.",
+    "tags": [
+      "dl"
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Softmax",
+    "content": "Softmax converts outputs into probability distributions.",
+    "tags": [
+      "dl"
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Loss Function",
+    "content": "Loss functions measure error between predicted and actual values.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Gradient Descent",
+    "content": "Gradient descent optimizes model parameters by minimizing loss.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Backpropagation",
+    "content": "Backpropagation updates neural network weights based on error.",
+    "tags": [
+      "dl"
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Epoch",
+    "content": "An epoch is one complete pass through the training dataset.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Batch Size",
+    "content": "Batch size defines number of samples processed before updating model.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Learning Rate",
+    "content": "Learning rate controls how much weights are updated during training.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Optimizer",
+    "content": "Optimizers adjust model weights to minimize loss.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Adam Optimizer",
+    "content": "Adam is an adaptive learning rate optimization algorithm.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 119,
+    "title": "SGD",
+    "content": "Stochastic Gradient Descent updates weights using random samples.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Evaluation Metrics",
+    "content": "Evaluation metrics measure model performance such as accuracy and precision.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 121,
+    "title": "Precision",
+    "content": "Precision measures how many selected items are relevant.",
+    "tags": [
+      "ml",
+      "metrics"
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Recall",
+    "content": "Recall measures how many relevant items are selected.",
+    "tags": [
+      "ml",
+      "metrics"
+    ]
+  },
+  {
+    "id": 123,
+    "title": "F1 Score",
+    "content": "F1 score is the harmonic mean of precision and recall.",
+    "tags": [
+      "ml",
+      "metrics"
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Accuracy",
+    "content": "Accuracy measures the proportion of correct predictions.",
+    "tags": [
+      "ml",
+      "metrics"
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Confusion Matrix",
+    "content": "A confusion matrix shows prediction results in classification tasks.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 126,
+    "title": "True Positive",
+    "content": "True positive occurs when the model correctly predicts a positive class.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 127,
+    "title": "False Positive",
+    "content": "False positive occurs when the model incorrectly predicts a positive class.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 128,
+    "title": "True Negative",
+    "content": "True negative occurs when the model correctly predicts a negative class.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 129,
+    "title": "False Negative",
+    "content": "False negative occurs when the model incorrectly predicts a negative class.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 130,
+    "title": "ROC Curve",
+    "content": "ROC curve visualizes the performance of a classification model.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 131,
+    "title": "AUC",
+    "content": "AUC measures the area under the ROC curve.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 132,
+    "title": "Cross Validation",
+    "content": "Cross validation evaluates model performance using multiple data splits.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 133,
+    "title": "K-Fold",
+    "content": "K-Fold divides data into K subsets for validation.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Bias",
+    "content": "Bias is error due to incorrect assumptions in the model.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Variance",
+    "content": "Variance measures model sensitivity to data changes.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Bias-Variance Tradeoff",
+    "content": "Tradeoff between model simplicity and flexibility.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Supervised Learning",
+    "content": "Supervised learning uses labeled data to train models.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 138,
+    "title": "Unsupervised Learning",
+    "content": "Unsupervised learning finds patterns in unlabeled data.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 139,
+    "title": "Reinforcement Learning",
+    "content": "Reinforcement learning learns via rewards and penalties.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Clustering",
+    "content": "Clustering groups similar data points together.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 141,
+    "title": "K-Means",
+    "content": "K-Means clusters data into K groups based on similarity.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Hierarchical Clustering",
+    "content": "Hierarchical clustering builds nested clusters.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Classification",
+    "content": "Classification assigns labels to input data.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Regression",
+    "content": "Regression predicts continuous values.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Decision Tree",
+    "content": "Decision trees split data into branches based on conditions.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 146,
+    "title": "Random Forest",
+    "content": "Random forest combines multiple decision trees.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 147,
+    "title": "SVM",
+    "content": "Support Vector Machines separate data using hyperplanes.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 148,
+    "title": "Naive Bayes",
+    "content": "Naive Bayes uses probability for classification.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Logistic Regression",
+    "content": "Logistic regression predicts binary outcomes.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Linear Regression",
+    "content": "Linear regression models relationships between variables.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 151,
+    "title": "Feature Scaling",
+    "content": "Feature scaling standardizes input data ranges.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Standardization",
+    "content": "Standardization centers data around mean zero.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 153,
+    "title": "Min-Max Scaling",
+    "content": "Min-max scaling rescales data to a fixed range.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Outliers",
+    "content": "Outliers are data points that differ significantly.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Data Cleaning",
+    "content": "Data cleaning removes errors and inconsistencies.",
+    "tags": [
+      "data"
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Data Preprocessing",
+    "content": "Data preprocessing prepares raw data for modeling.",
+    "tags": [
+      "data"
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Missing Values",
+    "content": "Missing values occur when data entries are absent.",
+    "tags": [
+      "data"
+    ]
+  },
+  {
+    "id": 158,
+    "title": "Imputation",
+    "content": "Imputation fills missing values using statistical methods.",
+    "tags": [
+      "data"
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Feature Selection",
+    "content": "Feature selection chooses relevant variables for models.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 160,
+    "title": "Feature Extraction",
+    "content": "Feature extraction transforms raw data into useful features.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 161,
+    "title": "Hyperparameters",
+    "content": "Hyperparameters control model behavior before training.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 162,
+    "title": "Grid Search",
+    "content": "Grid search finds optimal hyperparameters by testing combinations.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Random Search",
+    "content": "Random search selects random combinations of parameters.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Bayesian Optimization",
+    "content": "Bayesian optimization tunes hyperparameters efficiently.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Early Stopping",
+    "content": "Early stopping halts training when performance stops improving.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 166,
+    "title": "Model Drift",
+    "content": "Model drift occurs when model performance degrades over time.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 167,
+    "title": "Data Drift",
+    "content": "Data drift occurs when input data distribution changes.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 168,
+    "title": "Concept Drift",
+    "content": "Concept drift occurs when relationships in data change.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 169,
+    "title": "Online Learning",
+    "content": "Online learning updates models continuously with new data.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 170,
+    "title": "Batch Learning",
+    "content": "Batch learning trains models on entire datasets at once.",
+    "tags": [
+      "ml"
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Knowledge Retrieval",
+    "content": "Knowledge retrieval fetches relevant information from storage.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 172,
+    "title": "Context Ranking",
+    "content": "Context ranking orders retrieved results by relevance.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 173,
+    "title": "Answer Generation",
+    "content": "Answer generation produces responses using context and models.",
+    "tags": [
+      "rag"
+    ]
+  },
+  {
+    "id": 174,
+    "title": "Prompt Template",
+    "content": "Prompt templates structure input for consistent outputs.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 175,
+    "title": "System Prompt",
+    "content": "System prompts define behavior and role of an AI model.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 176,
+    "title": "User Prompt",
+    "content": "User prompt is the input given to an AI system.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 177,
+    "title": "Few-shot Prompting",
+    "content": "Few-shot prompting provides examples to guide responses.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 178,
+    "title": "Chain of Thought",
+    "content": "Chain of thought prompting encourages step-by-step reasoning.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 179,
+    "title": "Tool Use",
+    "content": "Tool use allows models to call external functions.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 180,
+    "title": "Function Calling",
+    "content": "Function calling enables structured outputs from models.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 181,
+    "title": "JSON Output",
+    "content": "JSON output structures responses in machine-readable format.",
+    "tags": [
+      "llm"
+    ]
+  },
+  {
+    "id": 182,
+    "title": "Streaming Response",
+    "content": "Streaming sends output incrementally to users.",
+    "tags": [
+      "api"
+    ]
+  },
+  {
+    "id": 183,
+    "title": "Latency Optimization",
+    "content": "Latency optimization reduces response time.",
+    "tags": [
+      "perf"
+    ]
+  },
+  {
+    "id": 184,
+    "title": "Caching Embeddings",
+    "content": "Caching embeddings avoids recomputation for repeated queries.",
+    "tags": [
+      "perf"
+    ]
+  },
+  {
+    "id": 185,
+    "title": "Vector Compression",
+    "content": "Vector compression reduces storage size of embeddings.",
+    "tags": [
+      "vector"
+    ]
+  },
+  {
+    "id": 186,
+    "title": "Sharding",
+    "content": "Sharding splits data across multiple nodes.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 187,
+    "title": "Replication",
+    "content": "Replication copies data for reliability.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 188,
+    "title": "Consistency",
+    "content": "Consistency ensures data accuracy across systems.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 189,
+    "title": "Availability",
+    "content": "Availability ensures system uptime.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 190,
+    "title": "Partition Tolerance",
+    "content": "Partition tolerance handles network failures.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 191,
+    "title": "CAP Theorem",
+    "content": "CAP theorem states tradeoffs between consistency, availability, and partition tolerance.",
+    "tags": [
+      "system"
+    ]
+  },
+  {
+    "id": 192,
+    "title": "Data Serialization",
+    "content": "Serialization converts data into a storable format.",
+    "tags": [
+      "data"
+    ]
+  },
+  {
+    "id": 193,
+    "title": "Deserialization",
+    "content": "Deserialization reconstructs data from stored format.",
+    "tags": [
+      "data"
+    ]
+  },
+  {
+    "id": 194,
+    "title": "Schema",
+    "content": "Schema defines structure of stored data.",
+    "tags": [
+      "data"
+    ]
+  },
+  {
+    "id": 195,
+    "title": "NoSQL Database",
+    "content": "NoSQL databases store flexible, non-relational data.",
+    "tags": [
+      "db"
+    ]
+  },
+  {
+    "id": 196,
+    "title": "SQL Database",
+    "content": "SQL databases use structured tables and queries.",
+    "tags": [
+      "db"
+    ]
+  },
+  {
+    "id": 197,
+    "title": "Graph Database",
+    "content": "Graph databases store relationships between entities.",
+    "tags": [
+      "db"
+    ]
+  },
+  {
+    "id": 198,
+    "title": "Time Series Database",
+    "content": "Time series databases store time-based data.",
+    "tags": [
+      "db"
+    ]
+  },
+  {
+    "id": 199,
+    "title": "Search Engine",
+    "content": "Search engines index and retrieve information efficiently.",
+    "tags": [
+      "search"
+    ]
+  },
+  {
+    "id": 200,
+    "title": "Full Text Search",
+    "content": "Full text search allows searching entire documents.",
+    "tags": [
+      "search"
+    ]
+  },
+  {
+    "id": 201,
+    "title": "Greeting - Hello",
+    "content": "Hello! How can I assist you today?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 202,
+    "title": "Greeting - Hi",
+    "content": "Hi there! What can I help you with?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 203,
+    "title": "Greeting - Hey",
+    "content": "Hey! How’s it going?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 204,
+    "title": "Greeting - Good Morning",
+    "content": "Good morning! Hope you have a great day ahead. How can I help?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Greeting - Good Afternoon",
+    "content": "Good afternoon! How can I assist you today?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Greeting - Good Evening",
+    "content": "Good evening! What can I do for you?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 207,
+    "title": "Farewell - Goodbye",
+    "content": "Goodbye! Have a nice day!",
+    "tags": [
+      "conversation",
+      "farewell"
+    ]
+  },
+  {
+    "id": 208,
+    "title": "Farewell - See You",
+    "content": "See you later! Take care!",
+    "tags": [
+      "conversation",
+      "farewell"
+    ]
+  },
+  {
+    "id": 209,
+    "title": "Farewell - Take Care",
+    "content": "Take care! Feel free to come back anytime.",
+    "tags": [
+      "conversation",
+      "farewell"
+    ]
+  },
+  {
+    "id": 210,
+    "title": "Gratitude - Thanks",
+    "content": "You're welcome! Happy to help.",
+    "tags": [
+      "conversation",
+      "gratitude"
+    ]
+  },
+  {
+    "id": 211,
+    "title": "Gratitude - Thank You",
+    "content": "Glad I could help! Let me know if you need anything else.",
+    "tags": [
+      "conversation",
+      "gratitude"
+    ]
+  },
+  {
+    "id": 212,
+    "title": "Small Talk - How are you",
+    "content": "I'm doing great! How about you?",
+    "tags": [
+      "conversation",
+      "smalltalk"
+    ]
+  },
+  {
+    "id": 213,
+    "title": "Small Talk - What's up",
+    "content": "Not much, just here to help you! What's up with you?",
+    "tags": [
+      "conversation",
+      "smalltalk"
+    ]
+  },
+  {
+    "id": 214,
+    "title": "Small Talk - How is your day",
+    "content": "My day is going well! How’s yours?",
+    "tags": [
+      "conversation",
+      "smalltalk"
+    ]
+  },
+  {
+    "id": 215,
+    "title": "Bot Identity",
+    "content": "I am an AI chatbot designed to assist you with information and tasks.",
+    "tags": [
+      "conversation",
+      "identity"
+    ]
+  },
+  {
+    "id": 216,
+    "title": "Bot Capability",
+    "content": "I can answer questions, help with learning, and assist with various tasks.",
+    "tags": [
+      "conversation",
+      "capability"
+    ]
+  },
+  {
+    "id": 217,
+    "title": "Help Request",
+    "content": "Sure! Tell me what you need help with.",
+    "tags": [
+      "conversation",
+      "help"
+    ]
+  },
+  {
+    "id": 218,
+    "title": "Clarification",
+    "content": "Could you please clarify your question?",
+    "tags": [
+      "conversation",
+      "clarification"
+    ]
+  },
+  {
+    "id": 219,
+    "title": "Fallback",
+    "content": "I'm not sure I understand. Could you rephrase that?",
+    "tags": [
+      "conversation",
+      "fallback"
+    ]
+  },
+  {
+    "id": 220,
+    "title": "Apology",
+    "content": "Sorry about that! Let me try again.",
+    "tags": [
+      "conversation",
+      "apology"
+    ]
+  },
+  {
+    "id": 221,
+    "title": "Affirmation - Yes",
+    "content": "Great! Let’s proceed.",
+    "tags": [
+      "conversation",
+      "affirmation"
+    ]
+  },
+  {
+    "id": 222,
+    "title": "Affirmation - Okay",
+    "content": "Okay! What would you like next?",
+    "tags": [
+      "conversation",
+      "affirmation"
+    ]
+  },
+  {
+    "id": 223,
+    "title": "Negation - No",
+    "content": "No problem! Let me know what you prefer.",
+    "tags": [
+      "conversation",
+      "negation"
+    ]
+  },
+  {
+    "id": 224,
+    "title": "Encouragement",
+    "content": "You're doing great! Keep going.",
+    "tags": [
+      "conversation",
+      "support"
+    ]
+  },
+  {
+    "id": 225,
+    "title": "Motivation",
+    "content": "Stay positive and keep learning!",
+    "tags": [
+      "conversation",
+      "support"
+    ]
+  },
+  {
+    "id": 226,
+    "title": "Joke Response",
+    "content": "Why did the computer show up at work late? It had a hard drive!",
+    "tags": [
+      "conversation",
+      "fun"
+    ]
+  },
+  {
+    "id": 227,
+    "title": "Fun Response",
+    "content": "I love chatting with you! 😊",
+    "tags": [
+      "conversation",
+      "fun"
+    ]
+  },
+  {
+    "id": 228,
+    "title": "Time Inquiry",
+    "content": "I can help with time-related questions. What would you like to know?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 229,
+    "title": "Weather Inquiry",
+    "content": "I can guide you on weather info, but I may need your location.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 230,
+    "title": "Good Night",
+    "content": "Good night! Sleep well.",
+    "tags": [
+      "conversation",
+      "farewell"
+    ]
+  },
+  {
+    "id": 231,
+    "title": "Welcome",
+    "content": "Welcome! How can I assist you today?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 232,
+    "title": "Repeat Request",
+    "content": "Sure, let me repeat that for you.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 233,
+    "title": "Slow Down Request",
+    "content": "No problem, I'll go step by step.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 234,
+    "title": "Confusion Response",
+    "content": "That seems a bit unclear. Could you explain more?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 235,
+    "title": "Error Handling",
+    "content": "Something went wrong. Please try again.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 236,
+    "title": "User Praise",
+    "content": "Nice question! Let's explore it.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 237,
+    "title": "Acknowledgement",
+    "content": "Got it! Let’s continue.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 238,
+    "title": "Wait Response",
+    "content": "Just a moment while I process that.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 239,
+    "title": "Thinking Response",
+    "content": "Let me think about that for a second.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 240,
+    "title": "Multi-turn Support",
+    "content": "Would you like more details on that?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 241,
+    "title": "Suggestion",
+    "content": "You might also find this helpful.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 242,
+    "title": "Follow-up Question",
+    "content": "Do you want me to explain further?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 243,
+    "title": "Polite Refusal",
+    "content": "I’m sorry, I can’t assist with that request.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 244,
+    "title": "Boundary Setting",
+    "content": "I can help with safe and appropriate topics.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 245,
+    "title": "Greeting Variation",
+    "content": "Hi! Nice to see you here.",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 246,
+    "title": "Greeting Variation 2",
+    "content": "Hello again! How can I help this time?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 247,
+    "title": "User Check-in",
+    "content": "Is everything clear so far?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 248,
+    "title": "Completion Check",
+    "content": "Did that answer your question?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 249,
+    "title": "Encouraging Return",
+    "content": "Feel free to ask anytime!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 250,
+    "title": "Session End",
+    "content": "Thanks for chatting! Have a great day!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 251,
+    "title": "Casual Greeting",
+    "content": "Hey there! What’s on your mind?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 252,
+    "title": "Friendly Tone",
+    "content": "I’m here and ready to help!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 253,
+    "title": "Positive Feedback",
+    "content": "That’s a great question!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 254,
+    "title": "Neutral Feedback",
+    "content": "Alright, let’s look into that.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 255,
+    "title": "Excited Response",
+    "content": "Awesome! Let’s dive in.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 256,
+    "title": "Calm Response",
+    "content": "Sure, let’s go step by step.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 257,
+    "title": "Polite Prompt",
+    "content": "Please let me know how I can assist you.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 258,
+    "title": "Reassurance",
+    "content": "I’m here to help you anytime.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 259,
+    "title": "Curiosity Prompt",
+    "content": "That sounds interesting! Tell me more.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 260,
+    "title": "Closure",
+    "content": "Alright! Let me know if you need anything else.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 261,
+    "title": "Greeting Natural",
+    "content": "Hey there! 😊 How can I help you today?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 262,
+    "title": "Greeting Friendly",
+    "content": "Hi! It’s great to see you here. What would you like to talk about?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 263,
+    "title": "Greeting Casual",
+    "content": "Hello! What’s on your mind today?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 264,
+    "title": "Morning Warm",
+    "content": "Good morning! ☀️ Hope you’re starting your day on a positive note. How can I assist?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 265,
+    "title": "Evening Warm",
+    "content": "Good evening! 🌙 How’s your day been so far?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 266,
+    "title": "How Are You Response",
+    "content": "I’m doing well, thanks for asking! 😊 How about you?",
+    "tags": [
+      "conversation",
+      "smalltalk"
+    ]
+  },
+  {
+    "id": 267,
+    "title": "Whats Up Response",
+    "content": "Not much, just here and ready to help! What’s up with you?",
+    "tags": [
+      "conversation",
+      "smalltalk"
+    ]
+  },
+  {
+    "id": 268,
+    "title": "Thanks Response Warm",
+    "content": "You’re very welcome! 😊 I’m glad I could help.",
+    "tags": [
+      "conversation",
+      "gratitude"
+    ]
+  },
+  {
+    "id": 269,
+    "title": "Thanks Response Friendly",
+    "content": "Anytime! Feel free to ask if something else comes up.",
+    "tags": [
+      "conversation",
+      "gratitude"
+    ]
+  },
+  {
+    "id": 270,
+    "title": "Apology Natural",
+    "content": "Ah, sorry about that! Let me fix it for you.",
+    "tags": [
+      "conversation",
+      "apology"
+    ]
+  },
+  {
+    "id": 271,
+    "title": "Clarification Gentle",
+    "content": "I want to make sure I understand—could you explain that a bit more?",
+    "tags": [
+      "conversation",
+      "clarification"
+    ]
+  },
+  {
+    "id": 272,
+    "title": "Clarification Friendly",
+    "content": "Hmm, can you give me a little more detail so I can help better?",
+    "tags": [
+      "conversation",
+      "clarification"
+    ]
+  },
+  {
+    "id": 273,
+    "title": "Fallback Polite",
+    "content": "I might be missing something—could you rephrase that for me?",
+    "tags": [
+      "conversation",
+      "fallback"
+    ]
+  },
+  {
+    "id": 274,
+    "title": "Encouragement Warm",
+    "content": "You’re on the right track! Keep going 👍",
+    "tags": [
+      "conversation",
+      "support"
+    ]
+  },
+  {
+    "id": 275,
+    "title": "Motivation Friendly",
+    "content": "Don’t worry, you’ve got this! Let’s figure it out together.",
+    "tags": [
+      "conversation",
+      "support"
+    ]
+  },
+  {
+    "id": 276,
+    "title": "Joke Light",
+    "content": "Why don’t programmers like nature? Too many bugs 😄",
+    "tags": [
+      "conversation",
+      "fun"
+    ]
+  },
+  {
+    "id": 277,
+    "title": "Fun Playful",
+    "content": "I’d say I’m 99% helpful and 1% jokes 😄",
+    "tags": [
+      "conversation",
+      "fun"
+    ]
+  },
+  {
+    "id": 278,
+    "title": "Thinking Response",
+    "content": "Good question… let me think about that for a moment.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 279,
+    "title": "Processing Response",
+    "content": "Give me a second, I’m working through that.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 280,
+    "title": "Follow-up Natural",
+    "content": "Would you like me to go deeper into that?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 281,
+    "title": "Follow-up Curious",
+    "content": "Want me to explain it in more detail?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 282,
+    "title": "Acknowledgement Natural",
+    "content": "Got it, that makes sense.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 283,
+    "title": "Acknowledgement Friendly",
+    "content": "Alright, I see what you mean!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 284,
+    "title": "Suggestion Soft",
+    "content": "You might find this approach helpful.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 285,
+    "title": "Suggestion Friendly",
+    "content": "Here’s something you could try.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 286,
+    "title": "Reassurance Warm",
+    "content": "No worries at all, I’m here to help 😊",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 287,
+    "title": "Reassurance Calm",
+    "content": "Take your time, we’ll figure it out step by step.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 288,
+    "title": "Polite Refusal Natural",
+    "content": "I’m sorry, I can’t help with that, but I can assist with something else.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 289,
+    "title": "Boundary Friendly",
+    "content": "I try to keep things helpful and safe—let me know if there’s another way I can help.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 290,
+    "title": "Excited Response",
+    "content": "That’s awesome! Let’s dive into it 🚀",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 291,
+    "title": "Calm Response",
+    "content": "Sure, let’s go through it step by step.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 292,
+    "title": "User Praise Natural",
+    "content": "That’s a really thoughtful question.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 293,
+    "title": "User Praise Friendly",
+    "content": "Nice one—that’s a great point to explore!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 294,
+    "title": "Check Understanding",
+    "content": "Does that make sense so far?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 295,
+    "title": "Completion Check",
+    "content": "Did that answer what you were looking for?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 296,
+    "title": "Conversation Continue",
+    "content": "What would you like to explore next?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 297,
+    "title": "Conversation Open",
+    "content": "I’m all ears—tell me what you’re thinking.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 298,
+    "title": "Goodbye Warm",
+    "content": "Alright, take care! It was nice chatting with you 😊",
+    "tags": [
+      "conversation",
+      "farewell"
+    ]
+  },
+  {
+    "id": 299,
+    "title": "Goodbye Friendly",
+    "content": "See you later! Feel free to come back anytime.",
+    "tags": [
+      "conversation",
+      "farewell"
+    ]
+  },
+  {
+    "id": 300,
+    "title": "Session Close",
+    "content": "Thanks for the chat! Have a great day ahead ✨",
+    "tags": [
+      "conversation",
+      "farewell"
+    ]
+  },
+  {
+    "id": 301,
+    "title": "Curiosity Prompt",
+    "content": "That sounds interesting—tell me more!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 302,
+    "title": "Engagement Prompt",
+    "content": "I’d love to hear more about that.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 303,
+    "title": "Wait Soft",
+    "content": "Just a sec, I’m putting that together.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 304,
+    "title": "Wait Friendly",
+    "content": "Hang on a moment, I’m working on it.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 305,
+    "title": "Neutral Response",
+    "content": "Alright, let’s take a look at that.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 306,
+    "title": "Positive Response",
+    "content": "Sounds good! Let’s go ahead.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 307,
+    "title": "Casual Tone",
+    "content": "Gotcha, let’s break it down.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 308,
+    "title": "Friendly Tone",
+    "content": "Happy to help, let’s figure it out together.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 309,
+    "title": "Light Humor",
+    "content": "I promise I’ll keep it simple 😄",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 310,
+    "title": "Playful Response",
+    "content": "Let’s make this fun and easy!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 311,
+    "title": "Supportive Tone",
+    "content": "You’re doing great so far, keep going!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 312,
+    "title": "Guidance Tone",
+    "content": "Let me guide you through this.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 313,
+    "title": "Clarify Intent",
+    "content": "Just to be sure—are you asking about the concept or implementation?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 314,
+    "title": "Refocus",
+    "content": "Let’s focus on the main part of your question.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 315,
+    "title": "Soft Correction",
+    "content": "Almost there—let’s adjust that slightly.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 316,
+    "title": "Direct Correction",
+    "content": "That’s close, but here’s the correct way to think about it.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 317,
+    "title": "Offer Help",
+    "content": "I’m here if you need more help with this.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 318,
+    "title": "Offer Extra",
+    "content": "I can also give examples if you’d like.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 319,
+    "title": "Closure Soft",
+    "content": "Alright, that should get you started.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 320,
+    "title": "Closure Friendly",
+    "content": "Let me know whenever you’re ready for the next step!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 321,
+    "title": "Greeting Natural",
+    "content": "Hey there! 😊 How can I help you today?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 322,
+    "title": "Greeting Friendly",
+    "content": "Hi! It’s great to see you here. What would you like to talk about?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 323,
+    "title": "Greeting Casual",
+    "content": "Hello! What’s on your mind today?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 324,
+    "title": "Morning Warm",
+    "content": "Good morning! ☀️ Hope you’re starting your day on a positive note. How can I assist?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 325,
+    "title": "Evening Warm",
+    "content": "Good evening! 🌙 How’s your day been so far?",
+    "tags": [
+      "conversation",
+      "greeting"
+    ]
+  },
+  {
+    "id": 326,
+    "title": "How Are You Response",
+    "content": "I’m doing well, thanks for asking! 😊 How about you?",
+    "tags": [
+      "conversation",
+      "smalltalk"
+    ]
+  },
+  {
+    "id": 327,
+    "title": "Whats Up Response",
+    "content": "Not much, just here and ready to help! What’s up with you?",
+    "tags": [
+      "conversation",
+      "smalltalk"
+    ]
+  },
+  {
+    "id": 328,
+    "title": "Thanks Response Warm",
+    "content": "You’re very welcome! 😊 I’m glad I could help.",
+    "tags": [
+      "conversation",
+      "gratitude"
+    ]
+  },
+  {
+    "id": 329,
+    "title": "Thanks Response Friendly",
+    "content": "Anytime! Feel free to ask if something else comes up.",
+    "tags": [
+      "conversation",
+      "gratitude"
+    ]
+  },
+  {
+    "id": 330,
+    "title": "Apology Natural",
+    "content": "Ah, sorry about that! Let me fix it for you.",
+    "tags": [
+      "conversation",
+      "apology"
+    ]
+  },
+  {
+    "id": 331,
+    "title": "Clarification Gentle",
+    "content": "I want to make sure I understand—could you explain that a bit more?",
+    "tags": [
+      "conversation",
+      "clarification"
+    ]
+  },
+  {
+    "id": 332,
+    "title": "Clarification Friendly",
+    "content": "Hmm, can you give me a little more detail so I can help better?",
+    "tags": [
+      "conversation",
+      "clarification"
+    ]
+  },
+  {
+    "id": 333,
+    "title": "Fallback Polite",
+    "content": "I might be missing something—could you rephrase that for me?",
+    "tags": [
+      "conversation",
+      "fallback"
+    ]
+  },
+  {
+    "id": 334,
+    "title": "Encouragement Warm",
+    "content": "You’re on the right track! Keep going 👍",
+    "tags": [
+      "conversation",
+      "support"
+    ]
+  },
+  {
+    "id": 335,
+    "title": "Motivation Friendly",
+    "content": "Don’t worry, you’ve got this! Let’s figure it out together.",
+    "tags": [
+      "conversation",
+      "support"
+    ]
+  },
+  {
+    "id": 336,
+    "title": "Joke Light",
+    "content": "Why don’t programmers like nature? Too many bugs 😄",
+    "tags": [
+      "conversation",
+      "fun"
+    ]
+  },
+  {
+    "id": 337,
+    "title": "Fun Playful",
+    "content": "I’d say I’m 99% helpful and 1% jokes 😄",
+    "tags": [
+      "conversation",
+      "fun"
+    ]
+  },
+  {
+    "id": 338,
+    "title": "Thinking Response",
+    "content": "Good question… let me think about that for a moment.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 339,
+    "title": "Processing Response",
+    "content": "Give me a second, I’m working through that.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 340,
+    "title": "Follow-up Natural",
+    "content": "Would you like me to go deeper into that?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 341,
+    "title": "Follow-up Curious",
+    "content": "Want me to explain it in more detail?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 342,
+    "title": "Acknowledgement Natural",
+    "content": "Got it, that makes sense.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 343,
+    "title": "Acknowledgement Friendly",
+    "content": "Alright, I see what you mean!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 344,
+    "title": "Suggestion Soft",
+    "content": "You might find this approach helpful.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 345,
+    "title": "Suggestion Friendly",
+    "content": "Here’s something you could try.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 346,
+    "title": "Reassurance Warm",
+    "content": "No worries at all, I’m here to help 😊",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 347,
+    "title": "Reassurance Calm",
+    "content": "Take your time, we’ll figure it out step by step.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 348,
+    "title": "Polite Refusal Natural",
+    "content": "I’m sorry, I can’t help with that, but I can assist with something else.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 349,
+    "title": "Boundary Friendly",
+    "content": "I try to keep things helpful and safe—let me know if there’s another way I can help.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 350,
+    "title": "Excited Response",
+    "content": "That’s awesome! Let’s dive into it 🚀",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 351,
+    "title": "Calm Response",
+    "content": "Sure, let’s go through it step by step.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 352,
+    "title": "User Praise Natural",
+    "content": "That’s a really thoughtful question.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 353,
+    "title": "User Praise Friendly",
+    "content": "Nice one—that’s a great point to explore!",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 354,
+    "title": "Check Understanding",
+    "content": "Does that make sense so far?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 355,
+    "title": "Completion Check",
+    "content": "Did that answer what you were looking for?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 356,
+    "title": "Conversation Continue",
+    "content": "What would you like to explore next?",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 357,
+    "title": "Conversation Open",
+    "content": "I’m all ears—tell me what you’re thinking.",
+    "tags": [
+      "conversation"
+    ]
+  },
+  {
+    "id": 358,
+    "title": "Goodbye Warm",
+    "content": "Alright, take care! It was nice chatting with you 😊",
+    "tags": [
+      "conversation",
+      "farewell"
+    ]
+  },
+  {
+    "id": 359,
+    "title": "Goodbye Friendly",
+    "content": "See you later! Feel free to come back anytime.",
+    "tags": [
+      "conversation",
+      "farewell"
+    ]
+  },
+  {
+    "id": 360,
+    "title": "Session Close",
+    "content": "Thanks for the chat! Have a great day ahead ✨",
+    "tags": [
+      "conversation",
+      "farewell"
+    ]
+  },
+  {
+    "id": 361,
+    "title": "Curiosity Prompt",
+    "content": "That sounds interesting—tell me more",
+    "tags": [
+      "conversation",
+      "engagement"
+    ]
+  },
+  {
+    "id": 362,
+    "title": "Open-Ended Question",
+    "content": "What are your thoughts on this?",
+    "tags": [
+      "conversation",
+      "engagement"
+    ]
+  },
+  {
+    "id": 363,
+    "title": "Gentle Nudge",
+    "content": "Just checking in—did you want to continue with that?",
+    "tags": [
+      "conversation",
+      "engagement"
+    ]
+  }
+]

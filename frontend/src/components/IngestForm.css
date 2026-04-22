@@ -1,0 +1,149 @@
+.ingest-card {
+    background: var(--glass-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+
+.ingest-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.icon-main {
+    color: var(--accent-primary);
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
+    filter: drop-shadow(0 0 10px rgba(255, 193, 7, 0.3));
+}
+
+.ingest-header h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+}
+
+.ingest-header p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+/* File Upload */
+.file-upload-container {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.file-upload-box {
+    border: 2px dashed var(--border-color);
+    border-radius: 8px;
+    padding: 3rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: var(--bg-primary);
+}
+
+.file-upload-box:hover {
+    border-color: var(--accent-primary);
+    background: rgba(255, 193, 7, 0.05);
+}
+
+.file-icon {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.file-upload-box:hover .file-icon {
+    color: var(--accent-primary);
+}
+
+.file-placeholder {
+    color: var(--text-secondary);
+    margin: 0;
+}
+
+.file-name {
+    color: var(--accent-primary);
+    margin: 0;
+    font-weight: 600;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background: var(--accent-primary);
+    color: #000;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s ease;
+}
+
+.submit-btn:hover:not(:disabled) {
+    background: var(--accent-secondary);
+    box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3);
+}
+
+.submit-btn:disabled {
+    background: var(--glass-bg);
+    color: var(--text-secondary);
+    cursor: not-allowed;
+    border: 1px solid var(--border-color);
+}
+
+.spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid transparent;
+    border-top-color: #000;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.status-container {
+    min-height: 24px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-msg {
+    color: #22c55e;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    animation: fadeIn 0.3s ease;
+}
+
+.error-msg {
+    color: #ef4444;
+    margin: 0;
+    font-size: 0.9rem;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}

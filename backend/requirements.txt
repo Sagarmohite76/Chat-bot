@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+qdrant-client
+sqlalchemy
+pydantic
+pydantic-settings
+python-dotenv
+google-genai
+psycopg2-binary
