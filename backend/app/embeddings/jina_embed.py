@@ -8,7 +8,7 @@ def get_embedding(text):
         "Authorization": f"Bearer {setting.JINA_API_KEY}",
         "Content-Type": "application/json"
     }
-
+    
     payload = {
         "input": text,
         "model": "jina-embeddings-v2-base-en"
@@ -17,7 +17,10 @@ def get_embedding(text):
     with httpx.Client(timeout=30.0) as client:  
         response = client.post(url, headers=headers, json=payload)
         response.raise_for_status()
-        return response.json()["data"][0]["embedding"]
+        data = response.json()
+        print("FULL RESPONSE:", data['usage'])  # 👈 DEBUG
+
+        return data["data"][0]["embedding"]
     
 # print(get_embedding("hello"))
 
